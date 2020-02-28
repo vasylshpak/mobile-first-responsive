@@ -3,7 +3,6 @@
     --primary: #ffc636;
     --secondary: #0a0b5b;
 }
-/*reset*/
 body p,a,ul,li{
     margin: 0;
     padding: 0;
@@ -39,7 +38,7 @@ input, textarea{
     border: 2px solid #9893d8;
     color: #f2f2f2
 }
-/*fonts*/
+
 @font-face{
     font-family: 'Rubik Regular';
     src: url('assets/fonts/Rubik-Regular.ttf')
@@ -64,7 +63,7 @@ h4{
     font-size: 1.1em;
 }
 
-/*mobile styles*/
+/*mobile*/
 .grid{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -187,7 +186,7 @@ footer li{
 footer img{
     width: 20px;
 }
-/*small tables styles*/
+/*small tables*/
 @media screen and (min-width: 620px){
 
     .welcome-text{
@@ -226,7 +225,7 @@ footer img{
     };
 }
 
-/* large table & laptop stales */
+/* large table & laptop */
 
 @media screen and (min-width: 960px){
     body{
@@ -293,7 +292,7 @@ footer img{
     };
 
 }
-/* desktip styles */
+/* desktop */
 
 @media screen and (min-width: 1200px){
 
